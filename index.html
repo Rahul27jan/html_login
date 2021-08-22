@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter_Strike</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/64679f1305.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="title">
+            <h1>About</h1>
+            <p>This one is my Mini Counter Strike Project</p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="counter-box">
+                <i class="fas fa-plane"></i>
+                <h2 class="counter">215</h2>
+                <h4>HOT DESTINATION</h4>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fas fa-user"></i>
+                    <h2 class="counter">108</h2><span>K </span>
+                    <h4>HAPPY CLIENTS</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fas fa-coffee"></i>
+                    <h2 class="counter">186</h2>
+                    <h4>CUPS OF COFFEE</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fas fa-globe"></i>
+                    <h2 class="counter">145</h2>
+                    <h4>VISITED COUNTRIES</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+            <script src="jquery.counterup.min.js"></script>
+            <script>
+                jQuery(document).ready (function ($){
+                    $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+            });
+            </script>
+</body>
+</html>
